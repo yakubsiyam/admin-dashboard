@@ -6,6 +6,7 @@ import { ChargeData } from "./ChargeData";
 import ChargeChart from "./components/ChargeChart";
 import { PaidData } from "./PaidData";
 import PaidChart from "./components/PaidChart";
+import DashboardHeader from "./components/DashboardHeader/DashboardHeader";
 
 function App() {
   const [billData, setBillData] = useState({
@@ -42,7 +43,8 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div className="container">
+      <DashboardHeader></DashboardHeader>
       <div style={{ width: 700 }}>
         <BillChart chartData={billData} />
       </div>
