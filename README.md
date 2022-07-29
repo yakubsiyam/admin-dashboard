@@ -1,1 +1,1 @@
-[Live Site: ](https://admin-dashboard-task.netlify.app/)
+Live Site Link: https://admin-dashboard-task.netlify.app/
