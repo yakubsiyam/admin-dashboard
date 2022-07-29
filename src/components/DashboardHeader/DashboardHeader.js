@@ -9,9 +9,9 @@ import {
 const DashboardHeader = () => {
   return (
     <div className="container mt-2 text-light">
-      <div class="row g-4">
-        <div class="col-md-3 patients-bg rounded-1">
-          <div className="d-flex justify-content-between align-items-center">
+      <div className="row g-4">
+        <div className="col-md-3 patients-bg rounded-1">
+          <div className="d-flex justify-content-between">
             <UserCircleIcon
               style={{
                 width: "40px",
@@ -25,8 +25,8 @@ const DashboardHeader = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-3 staff-bg  rounded-1">
-          <div className="d-flex justify-content-between align-items-center">
+        <div className="col-md-3 staff-bg  rounded-1">
+          <div className="d-flex justify-content-between">
             <UserCircleIcon
               style={{
                 width: "40px",
@@ -39,8 +39,8 @@ const DashboardHeader = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-3 sessions-bg  rounded-1">
-          <div className="d-flex justify-content-between align-items-center">
+        <div className="col-md-3 sessions-bg  rounded-1">
+          <div className="d-flex justify-content-between">
             <UserGroupIcon
               style={{
                 width: "40px",
@@ -53,8 +53,8 @@ const DashboardHeader = () => {
             </div>
           </div>
         </div>
-        <div class="col-md-3 bill-bg  rounded-1">
-          <div className="d-flex justify-content-between align-items-center">
+        <div className="col-md-3 bill-bg  rounded-1">
+          <div className="d-flex justify-content-between">
             <CashIcon
               style={{
                 width: "40px",
