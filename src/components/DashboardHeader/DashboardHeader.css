@@ -1,15 +1,19 @@
 .patients-bg {
-  background: #25c9e9;
+  background-color: #25c9e9;
+  background-image: linear-gradient(#25c9e9, #492a9b) !important;
 }
 
 .staff-bg {
-  background-color: #ef9b63;
+  background-color: #f8ae6d;
+  background-image: linear-gradient(#f8ae6d, #bc2320) !important;
 }
 
 .sessions-bg {
-  background-color: #2ab9b6;
+  background-color: #2cccbc;
+  background-image: linear-gradient(#2cccbc, #1e418c) !important;
 }
 
 .bill-bg {
   background-color: #65dbad;
+  background-image: linear-gradient(#65dbad, #0b5541) !important;
 }

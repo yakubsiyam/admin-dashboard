@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #edf6f7;
 }
 
 code {
@@ -11,4 +12,16 @@ code {
 
 .table-text {
   color: #09a2b3;
+}
+
+.main-box {
+  width: 96%;
+  margin: 20px 2%;
+  padding: 0 2%;
+  border-radius: 5px;
+}
+
+.table-bottom {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }

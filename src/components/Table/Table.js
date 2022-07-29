@@ -2,17 +2,17 @@ import React from "react";
 
 const Table = () => {
   return (
-    <div className="container mt-5 mb-3">
+    <div className=" py-4">
       <div className="row g-4">
         <div className="col-md-4">
-          <h5
-            className="text-light mb-0 p-1 border border-dark"
+          <h6
+            className="text-light mb-0 p-1 border border-dark border-bottom-0"
             style={{ backgroundColor: "#09A2B3" }}
           >
             Today's Task
-          </h5>
+          </h6>
           <div className="border border-dark rounded-bottom">
-            <table className="table table-bordered rounded-bottom">
+            <table className="table table-bottom table-bordered rounded-bottom">
               <thead>
                 <tr className="text-center">
                   <th scope="col">Report</th>
@@ -46,14 +46,14 @@ const Table = () => {
         </div>
 
         <div className="col-md-4">
-          <h5
-            className="text-light mb-0 p-1  border border-dark"
+          <h6
+            className="text-light mb-0 p-1  border border-dark border-bottom-0"
             style={{ backgroundColor: "#09A2B3" }}
           >
             Patient
-          </h5>
+          </h6>
           <div className="border border-dark rounded-bottom">
-            <table className="table table-bordered rounded-bottom">
+            <table className="table table-bottom table-bordered rounded-bottom">
               <thead>
                 <tr className="text-center">
                   <th scope="col">Report</th>
@@ -87,14 +87,14 @@ const Table = () => {
         </div>
 
         <div className="col-md-4">
-          <h5
-            className="text-light mb-0 p-1 border border-dark"
+          <h6
+            className="text-light mb-0 p-1 border border-dark border-bottom-0"
             style={{ backgroundColor: "#09A2B3" }}
           >
             Staffs
-          </h5>
+          </h6>
           <div className="border border-dark rounded-bottom">
-            <table className="table table-bordered rounded-bottom">
+            <table className="table table-bottom table-bordered rounded-bottom">
               <thead className="text-center">
                 <tr>
                   <th scope="col">Report</th>
@@ -123,14 +123,14 @@ const Table = () => {
           </div>
         </div>
         <div className="col-md-4">
-          <h5
-            className="text-light mb-0 p-1 border border-dark"
+          <h6
+            className="text-light mb-0 p-1 border border-dark border-bottom-0"
             style={{ backgroundColor: "#09A2B3" }}
           >
             Billing
-          </h5>
+          </h6>
           <div className="border border-dark rounded-bottom">
-            <table className="table table-bordered rounded-bottom">
+            <table className="table table-bottom table-bordered rounded-bottom">
               <thead className="text-center">
                 <tr>
                   <th scope="col">Report</th>
@@ -163,14 +163,14 @@ const Table = () => {
           </div>
         </div>
         <div className="col-md-4">
-          <h5
-            className="text-light mb-0 p-1 border border-dark"
+          <h6
+            className="text-light mb-0 p-1 border border-dark border-bottom-0"
             style={{ backgroundColor: "#09A2B3" }}
           >
             Scheduler
-          </h5>
+          </h6>
           <div className="border border-dark rounded-bottom">
-            <table className="table table-bordered rounded-bottom">
+            <table className="table table-bottom table-bordered rounded-bottom">
               <thead className="text-center">
                 <tr>
                   <th scope="col">Report</th>
@@ -203,14 +203,14 @@ const Table = () => {
           </div>
         </div>
         <div className="col-md-4">
-          <h5
-            className="text-light mb-0 p-1 border border-dark"
+          <h6
+            className="text-light mb-0 p-1 border border-dark border-bottom-0"
             style={{ backgroundColor: "#09A2B3" }}
           >
             Trending Reports
-          </h5>
+          </h6>
           <div className="border border-dark rounded-bottom">
-            <table className="table table-bordered rounded-bottom">
+            <table className="table table-bottom table-bordered rounded-bottom">
               <thead className="text-center">
                 <tr>
                   <th scope="col">Report</th>
