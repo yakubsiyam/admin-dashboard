@@ -25,3 +25,11 @@ code {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
+.text-gold {
+  color: #ff9a19;
+}
+
+.btn-primary {
+  background-color: #0aa6b7 !important;
+}

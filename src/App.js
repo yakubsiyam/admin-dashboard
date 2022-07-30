@@ -29,6 +29,15 @@ function App() {
         <Table></Table>
       </div>
       <Footer></Footer>
+      <div className="text-center">
+        <a
+          href="https://patient-table-task.netlify.app/"
+          target="_blank"
+          className="btn btn-primary text-center my-3"
+        >
+          Go To Patients Table
+        </a>
+      </div>
     </div>
   );
 }
